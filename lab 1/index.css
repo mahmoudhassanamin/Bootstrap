@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family:Georgia, 'Times New Roman', Times, serif,"Fira Sans", sans-serif;
+}
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg);
+    padding: 0;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+}
+.nav{
+    background-color: black;
+    border-bottom: 0.5px rgb(50, 49, 49) solid;
+    top: 0px;
+    position: sticky;
+    
+}
+.nav_img{
+    width: 25%;
+}
+a{
+    text-decoration:none;
+    color: white;
+    font-size: larger;
+   
+}
+ul{
+    float: right;
+}
+li{
+    display: inline;
+}
+nav li:hover{
+    border-bottom: 2px white solid;
+}
+.buyNow{
+    background-color: #ff9285;
+    border: 0px;
+    border-radius: 0;
+    color: black;
+}
+.btn:hover{
+    background-color: #f9a9a0;
+    color: black;
+}
+figure img{
+    min-height:500px;
+}
+figure:hover{
+    /* background-color: #0b0a0a5a; */
+    cursor: pointer;
+}
+.viewAllPages{
+    border: 2px white solid;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 500;
+}
+.viewAllPages:hover{
+    border:2px #f9a9a0 solid;
+    color: black;
+    background-color: white;
+}
+.imgCard{
+    width: 40%;
+}
+.cardBorder{
+    border: 0;
+}
+.accordionItems{
+    border: 1px rgb(56, 54, 54) solid;
+    border-radius: 0px !important;
+}
+.bg-body-Rose{
+    background-color: #ff9285;
+}
