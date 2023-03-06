@@ -1,0 +1,19 @@
+.nav{
+    background-color: $black;
+    border-bottom: 0.5px $gray-light solid;
+    top: 0px;
+    position: sticky;
+    
+    &__img{
+        width: 25%;
+    }
+    &__ul{
+        float: right;
+        & li{
+            display: inline;
+        }
+        & li:hover{
+            border-bottom: 2px $white solid;
+        }
+    }
+}

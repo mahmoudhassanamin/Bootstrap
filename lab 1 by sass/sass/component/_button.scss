@@ -1,0 +1,21 @@
+.btn--BuyNow{
+    background-color: #ff9285;
+    border: 0px;
+    border-radius: 0;
+    color: black;
+    &:hover{
+        background-color: #f9a9a0;
+        color: black;
+    }
+}
+.btn--viewAllPages{
+    border: 2px $white solid;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 500;
+    &:hover{
+        border:2px $rose-color solid;
+        color: $black;
+        background-color: $white;
+    }
+}
